@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+.sign-btn1:hover i{
+    background-color: #3DCAF5;
+}
+
+.whole{
+    text-align: center;
+    background-image: linear-gradient(60deg, #eaecef, #edeef1, #f0f1f2, #f3f3f4, #f6f6f6);
+}
+
+.hero{
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-logo{
+    box-shadow: 0 5px 20px #0029701a;
+}
+
+.assign{
+    padding-top: 200px;
+    width: 100%;
+    /* height: 587px; */
+    position: absolute;
+    z-index: 1;
+}
+.assign1{
+    position: relative;
+    z-index: 2;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.arrow-come{
+    position: relative;
+}
+.arrow-come svg{
+    display: none;
+    position: absolute;
+}
+@keyframes anime {
+    from {right: -10px;}
+  to {right: -20px;}
+}
+.arrow-come:hover{
+    cursor: pointer;
+}
+.arrow-come:hover svg{
+    display: block;
+    animation: anime linear 150ms 1;
+    z-index: -1;
+    right: -20px;
+}
+/* .bull1{
+    display: block;
+    width: 200px;
+    padding-left:40px;
+    padding-right: 40px;
+} */
+
+.travel::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+.travel::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px grey; 
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+.travel::-webkit-scrollbar-thumb {
+    background: #eaecef; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+.travel::-webkit-scrollbar-thumb:hover {
+    background: #3DCAF5; 
+  }
