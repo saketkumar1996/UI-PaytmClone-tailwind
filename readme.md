@@ -15,7 +15,7 @@ Here's the Live Deployed Website ![](https://img.shields.io/badge/Project%20-1-b
 ## [GO LIVE](https://uipaytmclone.netlify.app/)
 
 
-![Screenshot](./SS.png)
+![Screenshot](screen-capture.gif)
 
 # What I have learned in this project
 
